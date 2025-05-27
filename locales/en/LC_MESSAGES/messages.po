@@ -1,0 +1,104 @@
+# English translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-05-05 11:06+0500\n"
+"PO-Revision-Date: 2025-05-05 10:54+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: bot/buttons/reply.py:8
+msgid "Registratsiya/Kirish"
+msgstr "Registration/login"
+
+#: bot/buttons/reply.py:18
+msgid "Telefon raqam yuborish"
+msgstr "Share Phone Number"
+
+#: bot/buttons/reply.py:28
+msgid "🍽 Restoran menyusi"
+msgstr "🍽 Restaurant menu"
+
+#: bot/buttons/reply.py:29
+msgid "📞 Biz bilan bog'lanish"
+msgstr "📞 Connect with us"
+
+#: bot/buttons/reply.py:30
+msgid "💬 Til o'zgartirish"
+msgstr "💬 Change language"
+
+#: bot/buttons/reply.py:40
+msgid "🥙 Salatlar (Taom Tanlash)"
+msgstr "🥙 Salats (Choose Food)"
+
+#: bot/buttons/reply.py:41
+msgid "🍕 Fast Food (Taom Tanlash)"
+msgstr "🍕 Fast Food (Choose Food)"
+
+#: bot/buttons/reply.py:42 bot/buttons/reply.py:69
+msgid "🍜 Issiq taomlar (Taom Tanlash)"
+msgstr "🍜 Dishes (Choose dish)"
+
+#: bot/buttons/reply.py:43
+msgid "⬅️ Orqaga (Asosiy menyuga qaytish)"
+msgstr "⬅️ Back (Back to Main Menu)"
+
+#: bot/buttons/reply.py:66
+msgid "Burger"
+msgstr "Burger"
+
+#: bot/buttons/reply.py:67
+msgid "Hot-dog"
+msgstr "Hot-dog"
+
+#: bot/buttons/reply.py:68 bot/buttons/reply.py:81
+#, fuzzy
+msgid "⬅️ Orqaga (Restoran menyusiga qaytish)"
+msgstr "⬅️ Back (Back to Restaurant Menu)"
+
+#: bot/buttons/reply.py:79
+msgid "osh"
+msgstr "Plov"
+
+#: bot/buttons/reply.py:80
+msgid "Sho'rva"
+msgstr "Soup"
+
+#: bot/handler/main.py:17
+#, fuzzy
+msgid "Registratsia/Kirish"
+msgstr "Registration/login"
+
+#: bot/handler/main.py:22 bot/handler/user.py:17 bot/handler/user.py:55
+msgid "Asosiy menyu"
+msgstr "Main Menu"
+
+#: bot/handler/main.py:25
+msgid "Ismingizni kiriting"
+msgstr "Input your name"
+
+#: bot/handler/main.py:32
+msgid "Addresingizni kiriting"
+msgstr "Input Your address"
+
+#: bot/handler/main.py:39
+#, fuzzy
+msgid "Telefon raqam kiriting"
+msgstr "Input phone number"
+
+#: bot/handler/user.py:42
+#, fuzzy
+msgid "Til o'zgartirish"
+msgstr "💬 Change language"
+
