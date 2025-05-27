@@ -52,7 +52,7 @@ async def change_language_handler(message: Message, state: FSMContext, i18n):
     await state.set_data({"locale": lang})
     i18n.current_locale = lang
 
-    await message.answer(_("Asosiy menyuu"), reply_markup=main_menu_button())
+    await message.answer(_("Asosiyy menyuu"), reply_markup=main_menu_button())
 
 
 
