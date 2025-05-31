@@ -27,7 +27,7 @@ msgid "Telefon raqam yuborish"
 msgstr ""
 
 #: bot/buttons/reply.py:28
-msgid "🍽 Restoran menyusi"
+msgid "📕 Kitoblar katalogi"
 msgstr ""
 
 #: bot/buttons/reply.py:29
@@ -39,15 +39,15 @@ msgid "💬 Til o'zgartirish"
 msgstr ""
 
 #: bot/buttons/reply.py:40
-msgid "🥙 Salatlar (Taom Tanlash)"
+msgid "📕 Badiiy adabiyot"
 msgstr ""
 
 #: bot/buttons/reply.py:41
-msgid "🍕 Fast Food (Taom Tanlash)"
+msgid "📖 Ilmiy-ommabop"
 msgstr ""
 
 #: bot/buttons/reply.py:42 bot/buttons/reply.py:69
-msgid "🍜 Issiq taomlar (Taom Tanlash)"
+msgid "📘 Biznes va rivojlanish"
 msgstr ""
 
 #: bot/buttons/reply.py:43
@@ -55,11 +55,11 @@ msgid "⬅️ Orqaga (Asosiy menyuga qaytish)"
 msgstr ""
 
 #: bot/buttons/reply.py:66
-msgid "Burger"
+msgid "📖Qiziqarli fizika - Perelman"
 msgstr ""
 
 #: bot/buttons/reply.py:67
-msgid "Hot-dog"
+msgid "📖Tibbiyot mo'jizalari - David Agus"
 msgstr ""
 
 #: bot/buttons/reply.py:68 bot/buttons/reply.py:81
@@ -67,11 +67,11 @@ msgid "⬅️ Orqaga (Restoran menyusiga qaytish)"
 msgstr ""
 
 #: bot/buttons/reply.py:79
-msgid "osh"
+msgid "📘Boy ota, kambag'al ota - Robert Kiyosaki"
 msgstr ""
 
 #: bot/buttons/reply.py:80
-msgid "Sho'rva"
+msgid "📘Muvaffaqiyat odatlari - Stephen Covey"
 msgstr ""
 
 #: bot/handler/main.py:17

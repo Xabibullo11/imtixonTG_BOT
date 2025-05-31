@@ -39,7 +39,7 @@ msgid "💬 Til o'zgartirish"
 msgstr "💬 Change language"
 
 #: bot/buttons/reply.py:40
-msgid "📕 Badiiy adabiyot)"
+msgid "📕 Badiiy adabiyot"
 msgstr "📕 artistic literary"
 
 #: bot/buttons/reply.py:41
