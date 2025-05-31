@@ -27,8 +27,8 @@ msgid "Telefon raqam yuborish"
 msgstr "Share Phone Number"
 
 #: bot/buttons/reply.py:28
-msgid "🍽 Restoran menyusi"
-msgstr "🍽 Restaurant menu"
+msgid "📕 Kitoblar katalogi"
+msgstr "📕 Book catalog"
 
 #: bot/buttons/reply.py:29
 msgid "📞 Biz bilan bog'lanish"
@@ -39,41 +39,41 @@ msgid "💬 Til o'zgartirish"
 msgstr "💬 Change language"
 
 #: bot/buttons/reply.py:40
-msgid "🥙 Salatlar (Taom Tanlash)"
-msgstr "🥙 Salats (Choose Food)"
+msgid "📕 Badiiy adabiyot)"
+msgstr "📕 artistic literary"
 
 #: bot/buttons/reply.py:41
-msgid "🍕 Fast Food (Taom Tanlash)"
-msgstr "🍕 Fast Food (Choose Food)"
+msgid "📖 Ilmiy-ommabop"
+msgstr "📖 Popular science"
 
 #: bot/buttons/reply.py:42 bot/buttons/reply.py:69
-msgid "🍜 Issiq taomlar (Taom Tanlash)"
-msgstr "🍜 Dishes (Choose dish)"
+msgid "📘 Biznes va rivojlanish"
+msgstr "📘 Business and development"
 
 #: bot/buttons/reply.py:43
-msgid "⬅️ Orqaga (Asosiy menyuga qaytish)"
+msgid "⬅️ Orqaga (Kitoblar katalogiga qaytish)"
 msgstr "⬅️ Back (Back to Main Menu)"
 
 #: bot/buttons/reply.py:66
-msgid "Burger"
-msgstr "Burger"
+msgid "📖Qiziqarli fizika - Perelman"
+msgstr "📖Interesting Physics - Perelman"
 
 #: bot/buttons/reply.py:67
-msgid "Hot-dog"
-msgstr "Hot-dog"
+msgid "📖Tibbiyot mo'jizalari - David Agus"
+msgstr "📖Medical Miracles - David Agus"
 
 #: bot/buttons/reply.py:68 bot/buttons/reply.py:81
 #, fuzzy
-msgid "⬅️ Orqaga (Restoran menyusiga qaytish)"
-msgstr "⬅️ Back (Back to Restaurant Menu)"
+msgid "⬅️ Orqaga (Kitoblar katalogiga qaytish)"
+msgstr "⬅️ Back (Back to Book catalog)"
 
 #: bot/buttons/reply.py:79
-msgid "osh"
-msgstr "Plov"
+msgid "📘Boy ota, kambag'al ota - Robert Kiyosaki"
+msgstr "📘Rich Dad, Poor Dad - Robert Kiyosaki"
 
 #: bot/buttons/reply.py:80
-msgid "Sho'rva"
-msgstr "Soup"
+msgid "📘Muvaffaqiyat odatlari - Stephen Covey"
+msgstr "📘Success Habits - Stephen Covey"
 
 #: bot/handler/main.py:17
 #, fuzzy

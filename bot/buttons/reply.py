@@ -25,8 +25,8 @@ def contact_button():
 def main_menu_button():
     rkb = ReplyKeyboardBuilder()
     rkb.add(*[
-        KeyboardButton(text=_("🍽 Restoran menyusi")),
-        KeyboardButton(text=_("📞 Biz bilan bog'lanish")),
+        KeyboardButton(text=_("📕 Kitoblar katalogi")),
+        KeyboardButton(text=_("📞 Aloqa")),
         KeyboardButton(text=_("💬 Til o'zgartirish"))
     ])
 
@@ -34,12 +34,12 @@ def main_menu_button():
 
     return rkb.as_markup(resize_keyboard=True)
 
-def restaurant_menu_button():
+def book_catalog_button():
     rkb = ReplyKeyboardBuilder()
     rkb.add(*[
-        KeyboardButton(text=_("🥙 Salatlar (Taom Tanlash)")),
-        KeyboardButton(text=_("🍕 Fast Food (Taom Tanlash)")),
-        KeyboardButton(text=_("🍜 Issiq taomlar (Taom Tanlash)")),
+        KeyboardButton(text=_("📕 Badiiy adabiyot ")),
+        KeyboardButton(text=_("📖 Ilmiy-ommabop ")),
+        KeyboardButton(text=_("📘 Biznes va rivojlanish ")),
         KeyboardButton(text=_("⬅️ Orqaga (Asosiy menyuga qaytish)")),
     ])
 
@@ -47,38 +47,36 @@ def restaurant_menu_button():
 
     return rkb.as_markup(resize_keyboard=True)
 
-def salats_button():
+def badiiy_button():
     rkb = ReplyKeyboardBuilder()
     rkb.add(*[
-        KeyboardButton(text="Sezar salati"),
-        KeyboardButton(text="Olivye salati"),
-        KeyboardButton(text="⬅️ Orqaga (Restoran menyusiga qaytish)"),
-        KeyboardButton(text="🍕 Fast Food (Taom Tanlash)")
+        KeyboardButton(text="📕O'tkan kunlar - Abdulla Qodiriy"),
+        KeyboardButton(text="📕Mehrobdan chyon - Cho'lpon"),
+        KeyboardButton(text="⬅️ Orqaga (Kitoblar katalogiga qaytish)")
     ])
 
     rkb.adjust(1)
 
     return rkb.as_markup(resize_keyboard=True)
 
-def fastfood_button():
+def Ilmiy_ommabop_button():
     rkb = ReplyKeyboardBuilder()
     rkb.add(*[
-        KeyboardButton(text=_("Burger")),
-        KeyboardButton(text=_("Hot-dog")),
-        KeyboardButton(text=_("⬅️ Orqaga (Restoran menyusiga qaytish)")),
-        KeyboardButton(text=_("🍜 Issiq taomlar (Taom Tanlash)"))
+        KeyboardButton(text=_("📖Qiziqarli fizika - Perelman")),
+        KeyboardButton(text=_("📖Tibbiyot mo'jizalari - David Agus")),
+        KeyboardButton(text=_("⬅️ Orqaga (Kitoblar katalogiga qaytish)"))
     ])
 
     rkb.adjust(1)
 
     return rkb.as_markup(resize_keyboard=True)
 
-def dish_button():
+def biznes_button():
     rkb = ReplyKeyboardBuilder()
     rkb.add(*[
-        KeyboardButton(text=_("osh")),
-        KeyboardButton(text=_("Sho'rva")),
-        KeyboardButton(text=_("⬅️ Orqaga (Restoran menyusiga qaytish)"))
+        KeyboardButton(text=_("📘Boy ota, kambag'al ota - Robert Kiyosaki")),
+        KeyboardButton(text=_("📘Muvaffaqiyat odatlari - Stephen Covey")),
+        KeyboardButton(text=_("⬅️ Orqaga (Kitoblar katalogiga qaytish)"))
     ])
 
     rkb.adjust(1)

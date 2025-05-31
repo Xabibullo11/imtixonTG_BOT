@@ -7,7 +7,7 @@ from aiogram.utils.i18n import gettext as _, lazy_gettext as __
 from aiogram.utils.keyboard import ReplyKeyboardBuilder
 from aiogram import Router
 
-from bot.buttons.reply import main_menu_button, restaurant_menu_button, salats_button, fastfood_button, dish_button, \
+from bot.buttons.reply import main_menu_button, book_catalog_button, badiiy_button, Ilmiy_ommabop_button, biznes_button, \
     choose_language_button
 
 user_router = Router()
@@ -16,25 +16,25 @@ user_router = Router()
 async def command_start_handler(message: Message) -> None:
     await message.answer(_("Asosiy menyu"), reply_markup=main_menu_button())
 
-@user_router.message(F.text.in_(["🍽 Restoran menyusi", "⬅️ Orqaga (Restoran menyusiga qaytish)", "🍽 Restaurant menu", "⬅️ Back (Back to Restaurant Menu)"]))
+@user_router.message(F.text.in_(["📕 Kitoblar katalogi", "⬅️ Orqaga (Kitoblar katalogiga qaytish)", "📕 Book catalog", "⬅️ Back (Back to Book catalog)"]))
 async def restaurant_menu_handler(message: Message) -> None:
-    await message.answer("Restoran menyusi", reply_markup=restaurant_menu_button())
+    await message.answer("Kitoblar katalogi", reply_markup=book_catalog_button())
 
-@user_router.message(F.text.in_(["🥙 Salatlar (Taom Tanlash)", "🥙 Salats (Choose Food)"]))
+@user_router.message(F.text.in_(["📕 Badiiy adabiyot", " 📕 artistic literary"]))
 async def salats_handler(message: Message) -> None:
-    await message.answer("🥙 Salatlar (Taom Tanlash)", reply_markup=salats_button())
+    await message.answer("📕 Badiiy adabiyot", reply_markup=badiiy_button())
 
-@user_router.message(F.text.in_(["🍕 Fast Food (Taom Tanlash)", "🍕 Fast Food (Choose Food)"]))
+@user_router.message(F.text.in_(["📖 Ilmiy-ommabop)", "📖 Popular science"]))
 async def fastfood_handler(message: Message):
-    await message.answer("🍕 Fast Food (Taom Tanlash)", reply_markup=fastfood_button())
+    await message.answer("📖 Ilmiy-ommabop)", reply_markup=Ilmiy_ommabop_button())
 
-@user_router.message(F.text.in_(["🍜 Issiq taomlar (Taom Tanlash)", "🍜 Dishes (Choose dish)"]))
+@user_router.message(F.text.in_(["📘 Biznes va rivojlanish", "📘 Business and development"]))
 async def fastfood_handler(message: Message):
-    await message.answer("🍜 Issiq taomlar (Taom Tanlash)", reply_markup=dish_button())
+    await message.answer("📘 Biznes va rivojlanish", reply_markup=biznes_button())
 
 @user_router.message(F.text.in_(["📞 Biz bilan bog'lanish", "📞 Connect with us"]))
 async def connect_with_us(message: Message):
-    await message.answer("📞 Contact: +998503002292\n📩 Email: usmanovj161@gmail.com")
+    await message.answer("📞 Contact: +998900613324\n📩 Email: xabibullo11@gmail.com")
 
 
 @user_router.message(F.text.in_(["💬 Til o'zgartirish", "💬 Change language"]))
